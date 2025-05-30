@@ -11,7 +11,6 @@ layers:
   - I
   - O
   - P
-  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -21,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - $$mdi:apple-keyboard-shift$$
+  - {t: /, s: '?'}
   - Z
   - X
   - C
@@ -31,7 +30,8 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: Sym Snipe}
@@ -279,4 +279,4 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: /, s: '?'}
