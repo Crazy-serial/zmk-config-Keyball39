@@ -21,6 +21,7 @@ layers:
   - J
   - K
   - L
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -30,16 +31,15 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - Ctl+$$mdi:keyboard-esc$$
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: SNP SYM}
+  - {t: '$$mdi:keyboard-tab$$', h: SNP SYM}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - {t: Alt+`, h: Scrl Num, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-command$$', h: hhkb}
+  - {t: /, h: hhkb, s: '?'}
   hhkb:
   - F1
   - F2
