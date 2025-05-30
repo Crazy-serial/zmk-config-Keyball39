@@ -31,7 +31,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - Ctl+$$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-tab$$', h: SNP SYM}
