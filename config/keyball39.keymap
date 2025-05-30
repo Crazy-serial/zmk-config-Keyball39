@@ -74,30 +74,30 @@
 
         hhkb {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans      &trans          &trans          &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans      &trans          &kp UP_ARROW    &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F8  &kp F9      &kp F10         &kp F11         &kp F12
+&trans  &trans  &trans  &trans  &kp F6                  &kp F7  &none       &none           &kp UP_ARROW    &kp RIGHT
+&trans  &trans  &trans  &trans  &trans                  &none   &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &none
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans
-            >;
-        };
-
-        symbol_layer {
-            label = "SYM";
-            bindings = <
-&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&trans           &trans        &trans        &trans        &trans                       &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH
-&trans           &trans        &trans        &trans        &trans       &trans  &trans  &trans                                                                 &trans
             >;
         };
 
         empty {
             label = "empty";
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp F11  &kp F12  &none   &none   &none                 &none   &none   &none   &none   &none
-&none    &none    &none   &none   &none                 &none   &none   &none   &none   &none
-&none    &none    &none   &none   &none   &none  &none  &none                           &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none                       &none
+            >;
+        };
+
+        empty_2 {
+            label = "EMPTY";
+            bindings = <
+&trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
             >;
         };
 
@@ -121,13 +121,22 @@
             >;
         };
 
-        snipe_layer {
-            label = "SNIPE";
+        symbol_snipe {
+            label = "SNP SYM";
             bindings = <
-&trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
+&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none                      &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
+&none            &none         &none         &none         &none                      &kp UNDERSCORE  &kp PLUS       &kp COMMA         &kp PERIOD            &kp NON_US_BACKSLASH
+&none            &none         &none         &none         &none        &none  &none  &none                                                                  &none
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
         };
     };
