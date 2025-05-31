@@ -251,9 +251,9 @@ layers:
   - '*'
   - (
   - )
-  - '&universal_mail_edu'
-  - '&universal_id'
-  - '&universal_pass'
+  - '&univ_mail'
+  - '&univ_id'
+  - '&univ_pass'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
