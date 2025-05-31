@@ -58,25 +58,25 @@
             label = "HIRAGANA";
         };
 
-        univ_pass: universal_pass {
+        univ_pass: univ_pass {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none &kp LS(Z) &kp AMPS &kp I &kp AT &kp N4 &kp LS(T) &kp N &kp N5 &kp TILDE>;
-            label = "UNIVERSAL_PASS";
+            label = "UNIV_PASS";
         };
 
-        univ_id: universal_mail {
+        univ_id: univ_id {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none &kp LS(M) &kp N0 &kp LS(A) &kp N2 &kp N5 &kp N1 &kp N1 &kp N6>;
-            label = "UNIVERSAL_MAIL";
+            label = "UNIV_ID";
         };
 
-        univ_mail: universal_mail {
+        univ_mail: univ_mail {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none &kp M &kp N0 &kp A &kp N2 &kp N5 &kp N1 &kp N1 &kp N6 &kp N3 &kp N0 &kp AT &kp E &kp D &kp U &kp DOT &kp T &kp E &kp U &kp DOT &kp A &kp C &kp DOT &kp J &kp P>;
-            label = "UNIVERSAL_MAIL";
+            label = "UNIV_MAIL";
         };
     };
 
