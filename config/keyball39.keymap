@@ -135,20 +135,20 @@
         scroll_number {
             label = "Scrl Num";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
-&none         &none         &none         &none         &kp F6                      &kp F7        &none         &none         &none         &kp PAGE_UP
-&none         &none         &none         &none         &none         &none  &none  &none                                                   &kp PAGE_DOWN
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                 &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                       &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
+&none         &none         &none         &none         &kp F6                       &kp F7        &none         &none         &none         &kp PAGE_UP
+&none         &none         &none         &none         &none         &none  &trans  &trans                                                  &kp PAGE_DOWN
             >;
         };
 
         symbol_snipe {
             label = "Sym Snipe";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                 &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&univ_mail       &univ_id      &univ_pass    &none         &none                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                &kp UNDERSCORE  &kp PLUS       &kp COMMA         &kp PERIOD            &kp NON_US_BACKSLASH
-&bt BT_CLR       &none         &none         &none         &none         &none  &none  &none                                                                  &none
+&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&univ_mail       &univ_id      &univ_pass    &none         &none                        &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
+&bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                 &kp UNDERSCORE  &kp PLUS       &kp COMMA         &kp PERIOD            &kp NON_US_BACKSLASH
+&bt BT_CLR       &none         &none         &none         &none         &none  &trans  &trans                                                                 &none
             >;
         };
     };
