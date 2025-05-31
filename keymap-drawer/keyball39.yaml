@@ -97,9 +97,9 @@ layers:
   - PgUp
   - F6
   - F7
-  - HOME
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
+  - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -107,9 +107,9 @@ layers:
   - PgDn
   - PRINTSCREEN
   - PAUSE BREAK
-  - END
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
