@@ -105,10 +105,10 @@
 
         hhkb {
             bindings = <
-&kp F1  &kp F2  &kp F3            &kp F4         &kp F5                           &kp F8           &kp F9    &kp F10         &kp F11         &kp F12
-&none   &none   &none             &kp PAGE_UP    &kp F6                           &kp F7           &kp HOME  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT
-&none   &none   &none             &kp PAGE_DOWN  &kp PRINTSCREEN                  &kp PAUSE_BREAK  &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
-&trans  &trans  &kp LEFT_COMMAND  &trans         &trans           &trans  &trans  &kp DEL                                                    &none
+&kp F1            &kp F2  &kp F3  &kp F4         &kp F5                           &kp F8           &kp F9    &kp F10         &kp F11         &kp F12
+&none             &none   &none   &kp PAGE_UP    &kp F6                           &kp F7           &kp HOME  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT
+&none             &none   &none   &kp PAGE_DOWN  &kp PRINTSCREEN                  &kp PAUSE_BREAK  &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
+&kp LEFT_COMMAND  &trans  &trans  &trans         &trans           &trans  &trans  &kp DEL                                                    &none
             >;
         };
 
